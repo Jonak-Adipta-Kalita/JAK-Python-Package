@@ -8,13 +8,13 @@ Go to the [Package](https://pypi.org/project/beast-night-tv/)
 
 ## Installation
 ### Windows
-`pip install jak_python_package`
+`pip install beast-night-tv`
 
 ### Linux
-`python3 pip install jak_python_package`
+`python3 pip install beast-night-tv`
 
 ### MacOS
-`pip install jak_python_package`
+`pip install beast-night-tv`
 
 ## Contributors
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package/graphs/contributors">
