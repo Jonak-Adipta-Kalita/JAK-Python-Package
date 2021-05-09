@@ -1,7 +1,7 @@
 import setuptools
 
 AUTHOR = "JAK (Jonak Adipta Kalita)"
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'A Python Package made by JAK!!'
 AUTHOR_EMAIL = "<jonakadiptakalita@gmail.com>"
 URL = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package"
@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name = "jak_python_package",
+    name = "beast-night-tv",
     version = VERSION,
     author = AUTHOR,
     author_email = AUTHOR_EMAIL,

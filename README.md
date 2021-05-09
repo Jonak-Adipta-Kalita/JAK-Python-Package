@@ -4,7 +4,7 @@
 
 </div>
 
-Go to the [Package](https://pypi.org/project/jak-python-package/)
+Go to the [Package](https://pypi.org/project/beast-night-tv/)
 
 ## Installation
 ### Windows
