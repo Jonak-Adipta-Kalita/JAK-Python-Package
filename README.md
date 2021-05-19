@@ -10,13 +10,44 @@ Go to the [Package](https://pypi.org/project/beast-night-tv/)
 
 ## Installation
 ### Windows
-`pip install beast-night-tv`
+```bash
+pip install beast-night-tv
+```
 
 ### Linux
-`python3 pip install beast-night-tv`
+```bash 
+python3 pip install beast-night-tv
+```
 
 ### MacOS
-`pip install beast-night-tv`
+```bash
+pip install beast-night-tv
+```
+
+## Check if your changes Work
+### Clone the Repository
+In a Directory open a Terminal and type:
+```bash
+git clone https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package.git
+```
+
+### Make Change
+Make some changes and save them.
+
+### Create Virtual Environement
+```bash
+pip install virtualenv
+```
+Now in the directory where you cloned the repository, type:
+```bash
+virtualenv venv
+.\venv\Script\activate
+```
+
+### Install the changed Package in the Virtual Environement
+```bash
+pip install .
+```
 
 ## Contributors
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package/graphs/contributors">
