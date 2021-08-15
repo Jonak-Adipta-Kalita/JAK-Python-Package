@@ -1,7 +1,7 @@
-class PrintMessage():
-    def __init__(self, message : str):
+class PrintMessage:
+    def __init__(self, message: str):
         self.message = message
-    
+
     def print(self):
         if self.message:
             return self.message

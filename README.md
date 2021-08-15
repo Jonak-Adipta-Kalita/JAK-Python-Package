@@ -3,6 +3,7 @@
 # JAK-Python-Package
 ![PyPI](https://img.shields.io/pypi/v/beast-night-tv?style=for-the-badge)
 ![PyPI - Downloads](https://img.shields.io/pypi/dd/beast-night-tv?style=for-the-badge)
+[![Code Style: Black](https://img.shields.io/badge/Code%20Style-Black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
 
 </div>
 
@@ -31,18 +32,18 @@ In a Directory open a Terminal and type:
 git clone https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package.git
 ```
 
-### Make Change
-Make some changes and save them.
-
-### Create Virtual Environement
+### Installing The Required Modules
+To install the required modules, just open a terminal in the directory where this project is cloned. Now type: 
 ```bash
 pip install virtualenv
-```
-Now in the directory where you cloned the repository, type:
-```bash
 virtualenv venv
-.\venv\Script\activate
-```
+.\venv\Scripts\activate
+pip install -r .\requirements.txt
+``` 
+and hit enter.
+
+### Make Change
+Make some changes and save them.
 
 ### Install the changed Package in the Virtual Environement
 ```bash
