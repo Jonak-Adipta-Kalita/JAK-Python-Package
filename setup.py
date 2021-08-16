@@ -1,7 +1,7 @@
 import setuptools
 
 AUTHOR = "JAK (Jonak Adipta Kalita)"
-VERSION = "0.0.7"
+VERSION = "0.0.8"
 DESCRIPTION = "A Python Package made by JAK!!"
 AUTHOR_EMAIL = "<jonakadiptakalita@gmail.com>"
 URL = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package"
@@ -20,7 +20,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[],
     url=URL,
-    keywords=["python", "first_package", "print_message"],
+    keywords=["python", "first_package", "edit_message"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
