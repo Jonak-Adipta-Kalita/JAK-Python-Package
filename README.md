@@ -50,6 +50,10 @@ Make some changes and save them.
 pip install .
 ```
 
+## Technology(s) Used
+
+-   Language: [Python](https://python.org/)
+
 ## Contributors
 <a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package/graphs/contributors">
 	<img src = "https://contrib.rocks/image?repo=Jonak-Adipta-Kalita/JAK-Python-Package"/>
