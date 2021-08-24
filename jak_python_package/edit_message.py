@@ -2,6 +2,9 @@ class EditMessage:
     def __init__(self, message: str):
         self.message = message
 
+    def __repr__(self):
+        return f"Message: {self.message}"
+
     def print(self):
         if self.message:
             return self.message
