@@ -1,2 +1,4 @@
+site_name: "JAK Python Package"
+
 pages:
     - Home: "index.md"
