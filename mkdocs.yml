@@ -1,1 +1,5 @@
 site_name: JAK Python Package
+
+theme:
+    name: readthedocs
+    nav_style: dark
