@@ -1,7 +1,7 @@
 import setuptools
 
 AUTHOR = "JAK (Jonak Adipta Kalita)"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 DESCRIPTION = "A Python Package made by JAK!!"
 AUTHOR_EMAIL = "<jonakadiptakalita@gmail.com>"
 URL = "https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package"
