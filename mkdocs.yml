@@ -1,4 +1,9 @@
 site_name: JAK Python Package
+site_author: Jonak Adipta Kalita
+site_description: A Python Package made by JAK!!
+copyright: © Jonak Adipta Kalita - 2021
+edit_uri: edit/main/docs/
+repo_url: https://github.com/Jonak-Adipta-Kalita/JAK-Python-Package/
 
 theme:
     name: readthedocs
