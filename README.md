@@ -12,6 +12,8 @@
 
 </div>
 
+- 	Note: [Formatting](#format-code) the Code before Pushing is Important!!
+
 Go to the [Package](https://pypi.org/project/beast-night-tv/), [Documentation](https://jak-python-package.readthedocs.io/)
 
 ## Installation
@@ -54,6 +56,15 @@ Make some changes and save them.
 ```bash
 pip install .
 ```
+
+## Format Code
+In a terminal, type
+```bash
+.\venv\Scripts\activate
+black .
+deactivate
+```
+and press Enter.
 
 ## Technology(s) Used
 
