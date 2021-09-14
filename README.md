@@ -4,6 +4,7 @@
 ![PyPI](https://img.shields.io/pypi/v/beast-night-tv?style=for-the-badge)
 ![PyPI - Downloads](https://img.shields.io/pypi/dd/beast-night-tv?style=for-the-badge)
 [![Code Style: Black](https://img.shields.io/badge/Code%20Style-Black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
+![License](https://img.shields.io/github/license/Jonak-Adipta-Kalita/JAK-Python-Package?style=for-the-badge)
 [![Documentation Status](https://readthedocs.org/projects/jak-python-package/badge/?version=latest&style=for-the-badge)](https://jak-python-package.readthedocs.io/en/latest/?badge=latest)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Jonak-Adipta-Kalita/JAK-Python-Package?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Jonak-Adipta-Kalita/JAK-Python-Package?style=for-the-badge)
