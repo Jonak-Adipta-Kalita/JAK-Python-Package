@@ -1,3 +1,5 @@
 # Home
 
-Checkout the [Installation](https://jak-python-package.readthedocs.io/en/latest/installation) guide!!
+JAK Python Package is a Python Package made by JAK!!
+
+- 	Checkout the [Installation](installation/) guide!!
