@@ -1,1 +1,1 @@
-from jak_python_package.print_message import PrintMessage
+from jak_python_package.print_message import *
