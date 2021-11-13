@@ -9,13 +9,6 @@ message = input(">> ")
 message_passed = EditMessage(message)
 ```
 
-## Print the Message
-
-```
-print_message = message_passed.print()
-print(print_message)
-```
-
 ## Remove Spaces from the String
 
 ```
