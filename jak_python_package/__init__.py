@@ -9,4 +9,4 @@ A Python Package created by JAK!!
 
 """
 
-from jak_python_package.edit_message import *
+import jak_python_package.edit_message
