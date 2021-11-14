@@ -14,7 +14,7 @@
 
 </div>
 
--         Note: [Formatting](#format-code) and [Testing](#test) the Code before Pushing is Important!!
+-           Note: [Formatting](#format-code) and [Testing](#test) the Code before Pushing is Important!!
 
 Go to the [Package](https://pypi.org/project/beast-night-tv/), [Documentation](https://jak-python-package.readthedocs.io/)
 
@@ -38,7 +38,7 @@ python3 pip install beast-night-tv
 pip install beast-night-tv
 ```
 
-## Check if your changes Work
+## Steps
 
 ### Clone the Repository
 
@@ -60,16 +60,6 @@ pip install -r .\requirements.txt
 ```
 
 and hit enter.
-
-### Make Change
-
-Make some changes and save them.
-
-### Install the changed Package in the Virtual Environement
-
-```bash
-pip install .
-```
 
 ## Format Code
 
