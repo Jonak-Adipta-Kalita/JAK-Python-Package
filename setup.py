@@ -22,17 +22,18 @@ CLASSIFIERS = [
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
-setuptools.setup(
-    name="beast-night-tv",
-    version=VERSION,
-    author=AUTHOR,
-    author_email=AUTHOR_EMAIL,
-    description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
-    packages=setuptools.find_packages(),
-    install_requires=INSTALL_REQUIRES,
-    url=URL,
-    keywords=KEYWORDS,
-    classifiers=CLASSIFIERS,
-)
+if __name__ == "__main__":
+    setuptools.setup(
+        name="beast-night-tv",
+        version=VERSION,
+        author=AUTHOR,
+        author_email=AUTHOR_EMAIL,
+        description=DESCRIPTION,
+        long_description_content_type="text/markdown",
+        long_description=LONG_DESCRIPTION,
+        packages=setuptools.find_packages(),
+        install_requires=INSTALL_REQUIRES,
+        url=URL,
+        keywords=KEYWORDS,
+        classifiers=CLASSIFIERS,
+    )
