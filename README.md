@@ -14,7 +14,7 @@
 
 </div>
 
--           Note: [Formatting](#format-code) and [Testing](#test) the Code before Pushing is Important!!
+-   Note: [Formatting](#format-code) and [Testing](#test) the Code before Pushing is Important!!
 
 Go to the [Package](https://pypi.org/project/beast-night-tv/), [Documentation](https://jak-python-package.readthedocs.io/)
 
