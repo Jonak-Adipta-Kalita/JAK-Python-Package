@@ -1,1 +1,12 @@
-from jak_python_package.print_message import *
+"""
+JAK Python Package
+~~~~~~~~~~~~~~~~~~
+
+A Python Package created by JAK!!
+
+:copyright: (c) 2020-present Jonak Adipta Kalita
+:license: MIT, see LICENSE for more details.
+
+"""
+
+from jak_python_package.edit_message import *
