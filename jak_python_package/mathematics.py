@@ -16,7 +16,7 @@ class Mathematics:
         :type number: Integer
         """
         if number:
-            if isinstance(number, str):
+            if isinstance(number, int):
                 self.number = number
             else:
                 raise Exception("Number must be a Integer!!")
@@ -24,7 +24,7 @@ class Mathematics:
             print("Please Provide a Integer")
             number = input(">> ")
 
-            if isinstance(number, str):
+            if isinstance(number, int):
                 self.number = number
             else:
                 raise Exception("Number must be a Integer!!")
