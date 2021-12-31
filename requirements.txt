@@ -49,4 +49,4 @@ typing-extensions==3.10.0.2
 urllib3==1.26.7
 watchdog==2.1.6
 webencodings==0.5.1
-zipp==3.6.0
+zipp==3.7.0
