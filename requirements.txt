@@ -44,7 +44,7 @@ toml==0.10.2
 tomli==1.2.2
 tqdm==4.62.3
 twine==3.4.2
-typed-ast==1.4.3
+typed-ast==1.5.2
 typing-extensions==3.10.0.2
 urllib3==1.26.7
 watchdog==2.1.6
