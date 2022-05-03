@@ -28,7 +28,7 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> message.get_jak()
+            >>> jak_api.get_jak()
         """
         resp = requests.get(
             f"{self.BASE_URL}/jak",
@@ -48,7 +48,7 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> message.get_brawl_stars()
+            >>> jak_api.get_brawl_stars()
         """
         resp = requests.get(
             f"{self.BASE_URL}/brawlStars",
@@ -68,7 +68,7 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> message.get_miraculous()
+            >>> jak_api.get_miraculous()
         """
         resp = requests.get(
             f"{self.BASE_URL}/miraculous",
@@ -88,7 +88,7 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> message.get_mughal_empire()
+            >>> jak_api.get_mughal_empire()
         """
         resp = requests.get(
             f"{self.BASE_URL}/mughalEmpire",
@@ -108,7 +108,7 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> message.get_genshin_impact()
+            >>> jak_api.get_genshin_impact()
         """
         resp = requests.get(
             f"{self.BASE_URL}/genshinImpact",
@@ -120,7 +120,7 @@ class API:
 
         return json.loads(resp.text)
 
-    def get_alexis_response(self, message: str) -> str:
+    def get_alexis_response(self, jak_api: str) -> str:
         """
         Get Alexis Response
         :return: Alexis's Response!!
@@ -128,7 +128,7 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> message.get_alexis_response()
+            >>> jak_api.get_alexis_response()
         """
         resp = requests.get(
             f"{self.BASE_URL}/ai",
@@ -138,4 +138,4 @@ class API:
             },
         )
 
-        return json.loads(resp.text)
+        return resp.text

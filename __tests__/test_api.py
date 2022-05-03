@@ -42,4 +42,4 @@ def test_get_alexis_response():
     jak_api = API(rapidapi_key=RAPIDAPI_KEY)
 
     assert jak_api.get_alexis_response("Hello!!")
-    assert type(jak_api.get_alexis_response("Hello!!")) == dict
+    assert type(jak_api.get_alexis_response("Hello!!")) == str
