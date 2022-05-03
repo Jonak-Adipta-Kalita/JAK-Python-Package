@@ -1,7 +1,7 @@
 """
 Mathematics Module
 By: BeastNight TV
-Website: https://jonakadiptakalita.herokuapp.coom/
+Website: https://jonakadiptakalita.vercel.app/
 """
 
 

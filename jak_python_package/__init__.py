@@ -10,3 +10,5 @@ A Python Package created by JAK!!
 """
 
 import jak_python_package.edit_message
+import jak_python_package.mathematics
+import jak_python_package.api
