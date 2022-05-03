@@ -120,7 +120,7 @@ class API:
 
         return json.loads(resp.text)
 
-    def get_alexis_response(self, jak_api: str) -> str:
+    def get_alexis_response(self, message: str) -> str:
         """
         Get Alexis Response
         :return: Alexis's Response!!
