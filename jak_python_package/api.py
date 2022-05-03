@@ -4,7 +4,7 @@ By: BeastNight TV
 Website: https://jonakadiptakalita.vercel.app/
 """
 
-import requests
+import requests, json
 
 
 class API:
@@ -38,7 +38,7 @@ class API:
             },
         )
 
-        return resp.text
+        return json.loads(resp.text)
 
     def get_brawl_stars(self) -> dict:
         """
@@ -58,7 +58,7 @@ class API:
             },
         )
 
-        return resp.text
+        return json.loads(resp.text)
 
     def get_miraculous(self) -> dict:
         """
@@ -78,7 +78,7 @@ class API:
             },
         )
 
-        return resp.text
+        return json.loads(resp.text)
 
     def get_mughal_empire(self) -> dict:
         """
@@ -98,7 +98,7 @@ class API:
             },
         )
 
-        return resp.text
+        return json.loads(resp.text)
 
     def get_genshin_impact(self) -> dict:
         """
@@ -118,7 +118,7 @@ class API:
             },
         )
 
-        return resp.text
+        return json.loads(resp.text)
 
     def get_alexis_response(self, message: str) -> str:
         """
@@ -138,4 +138,4 @@ class API:
             },
         )
 
-        return resp.text
+        return json.loads(resp.text)
