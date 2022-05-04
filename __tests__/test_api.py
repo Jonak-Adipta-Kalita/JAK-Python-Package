@@ -17,6 +17,13 @@ def test_get_brawl_stars():
     assert type(jak_api.get_brawl_stars()) == dict
 
 
+def test_get_ben10():
+    jak_api = API(rapidapi_key=RAPIDAPI_KEY)
+
+    assert jak_api.get_ben10()
+    assert type(jak_api.get_ben10()) == dict
+
+
 def test_get_miraculous():
     jak_api = API(rapidapi_key=RAPIDAPI_KEY)
 

@@ -8,6 +8,9 @@ jak_details = jak_api.get_jak()
 # Get Brawl Stars
 brawl_stars_data = jak_api.get_brawl_stars()
 
+# Get Ben 10
+ben10_data = jak_api.get_ben10()
+
 # Get Miraculous
 miraculous_data = jak_api.get_miraculous()
 

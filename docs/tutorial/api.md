@@ -22,6 +22,13 @@ brawl_stars_data = jak_api.get_brawl_stars()
 print(brawl_stars_data)
 ```
 
+## Get Ben 10
+
+```
+ben10_data = jak_api.get_ben10()
+print(ben10_data)
+```
+
 ## Get Miraculous
 
 ```
