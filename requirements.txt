@@ -4,7 +4,7 @@ attrs==21.2.0
 black==21.9b0
 bleach==4.1.0
 certifi==2021.10.8
-charset-normalizer==2.0.7
+charset-normalizer==3.0.0
 click==8.0.3
 colorama==0.4.4
 docutils==0.18
