@@ -152,9 +152,7 @@ class API:
         """
         resp = requests.post(
             f"{self.BASE_URL}/ai",
-            data={
-                "message": message
-            },
+            data={"message": message},
             headers={
                 "X-RapidAPI-Host": "jak_api.p.rapidapi.com",
                 "X-RapidAPI-Key": self.RAPIDAPI_KEY,
