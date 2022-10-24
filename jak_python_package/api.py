@@ -148,10 +148,13 @@ class API:
         Basic usage:
             >>> from jak_python_package.api import API
             >>> jak_api = API("YOUR_RAPID_API_KEY")
-            >>> jak_api.get_alexis_response()
+            >>> jak_api.get_alexis_response("YOUR_MESSAGE")
         """
-        resp = requests.get(
+        resp = requests.post(
             f"{self.BASE_URL}/ai",
+            data={
+                "message": message
+            },
             headers={
                 "X-RapidAPI-Host": "jak_api.p.rapidapi.com",
                 "X-RapidAPI-Key": self.RAPIDAPI_KEY,
