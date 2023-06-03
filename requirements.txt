@@ -22,7 +22,7 @@ mypy-extensions==0.4.3
 packaging==21.0
 Panda3D==1.10.7
 pathspec==0.9.0
-pkginfo==1.7.1
+pkginfo==1.9.6
 platformdirs==2.3.0
 pluggy==1.0.0
 py==1.11.0
